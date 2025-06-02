@@ -1,43 +1,41 @@
 # Universal Calculator
 
-Proyek **Universal Calculator** adalah aplikasi web serbaguna yang menyediakan berbagai kalkulator untuk kebutuhan perhitungan matematika dan fisika. Aplikasi ini dirancang dengan antarmuka yang modern, responsif, dan interaktif, sehingga memudahkan pengguna untuk memilih serta menggunakan kalkulator sesuai kategori yang diinginkan.
+The **Universal Calculator** project is a versatile web application that provides various calculators for mathematical and physical calculation needs. This application is designed with a modern, responsive, and interactive interface, making it easy for users to select and use calculators according to their desired categories.
 
 ---
 
-## Deskripsi
+## Description
 
-File `index.html` merupakan file utama dari aplikasi ini. Di dalamnya terdapat:
-- **HTML** yang menyusun struktur halaman.
-- **CSS** yang mengatur tampilan, animasi, dan desain responsif.
-- **JavaScript** yang menyediakan fungsionalitas dinamis untuk navigasi, pembuatan dan penanganan kalkulator, serta interaksi pengguna.
+The `index.html` file is the main file of this application. It contains:
+- **HTML** that structures the page.
+- **CSS** that manages the appearance, animations, and responsive design.
+- **JavaScript** that provides dynamic functionality for navigation, calculator creation and handling, and user interaction.
 
-Aplikasi ini menampilkan kalkulator yang dibagi menjadi dua kategori utama: **Math Calculators** dan **Physics Calculators**, masing-masing dengan sub-kategori yang berisi kalkulator spesifik seperti Percentage, Algebra, Arithmetic untuk matematika, serta Kinematics dan Dynamics untuk fisika.
-
----
-
-## Fitur Utama
-
-- **Header yang Informatif:**
-  - Menampilkan judul "Universal Calculator" dengan dekorasi emoji dan tagline yang menggambarkan aplikasi sebagai solusi perhitungan lengkap.
-
-- **Navigasi Kategori dan Sub-Kategori:**
-  - **Kategori Utama:** Math Calculators dan Physics Calculators.
-  - **Sub-Kategori Math:** Percentage, Algebra, dan Arithmetic.
-  - **Sub-Kategori Physics:** Kinematics dan Dynamics.
-  - Tombol navigasi didesain dengan efek hover, transisi, dan responsif agar mudah digunakan di berbagai perangkat.
-
-- **Tampilan Kalkulator Dinamis:**
-  - Kalkulator ditampilkan dalam bentuk kartu (card) yang menampilkan nama, emoji, dan deskripsi singkat.
-  - Setiap kartu kalkulator dapat diklik untuk memuat tampilan kalkulator secara lengkap dengan formulir input dan tombol perhitungan.
-  - Contoh kalkulator matematika yang disediakan antara lain Percentage Calculator, Percent Error Calculator, Quadratic Equation Calculator, Arithmetic Sequence Calculator, Factorial Calculator, dan lain-lain.
-  - Pada bagian fisika, tersedia kalkulator seperti Projectile Motion Calculator, Free Fall Calculator, Force Calculator, dan Gravitational Force Calculator.
-
-- **Desain Responsif dan Animasi:**
-  - Menggunakan CSS Flexbox dan Grid untuk layout responsif.
-  - Efek transisi dan animasi fade-in untuk memperhalus perpindahan tampilan kalkulator.
-
-- **Fungsionalitas Interaktif:**
-  - JavaScript mengatur navigasi kategori, penampilan kalkulator, serta perhitungan matematis dan fisika dengan validasi input.
-  - Kalkulator dibuat secara dinamis melalui fungsi yang menghasilkan HTML dan melampirkan event handler untuk perhitungan.
+This application displays calculators divided into two main categories: **Math Calculators** and **Physics Calculators**, each with sub-categories containing specific calculators such as Percentage, Algebra, Arithmetic for mathematics, and Kinematics and Dynamics for physics.
 
 ---
+
+## Main Features
+
+- **Informative Header:**
+  - Displays the title "Universal Calculator" with emoji decorations and a tagline describing the application as a complete calculation solution.
+
+- **Category and Sub-Category Navigation:**
+  - **Main Categories:** Math Calculators and Physics Calculators.
+  - **Math Sub-Categories:** Percentage, Algebra, and Arithmetic.
+  - **Physics Sub-Categories:** Kinematics and Dynamics.
+  - Navigation buttons are designed with hover effects, transitions, and responsiveness for easy use on various devices.
+
+- **Dynamic Calculator Display:**
+  - Calculators are displayed as cards showing name, emoji, and a brief description.
+  - Each calculator card can be clicked to load the complete calculator view with input forms and calculation buttons.
+  - Examples of provided math calculators include Percentage Calculator, Percent Error Calculator, Quadratic Equation Calculator, Arithmetic Sequence Calculator, Factorial Calculator, and others.
+  - In the physics section, calculators such as Projectile Motion Calculator, Free Fall Calculator, Force Calculator, and Gravitational Force Calculator are available.
+
+- **Responsive Design and Animation:**
+  - Uses CSS Flexbox and Grid for responsive layouts.
+  - Transition effects and fade-in animations to smooth calculator view transitions.
+
+- **Interactive Functionality:**
+  - JavaScript manages category navigation, calculator display, and mathematical and physical calculations with input validation.
+  - Calculators are dynamically created through functions that generate HTML and attach event handlers for calculations.
